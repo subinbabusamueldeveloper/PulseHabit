@@ -24,4 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "PulseHabit"
 include(":app")
- 
+include(":db")
