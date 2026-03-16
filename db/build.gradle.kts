@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "subin.daily.db"
+    namespace = "com.pulsehabit.db"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -34,8 +34,6 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
