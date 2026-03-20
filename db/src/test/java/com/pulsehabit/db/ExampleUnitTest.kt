@@ -1,4 +1,4 @@
-package subin.daily.db
+package com.pulsehabit.db
 
 import org.junit.Test
 

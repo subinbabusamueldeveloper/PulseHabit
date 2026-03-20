@@ -59,4 +59,5 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
 
     implementation(project(":db"))
+
 }
